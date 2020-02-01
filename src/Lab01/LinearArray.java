@@ -143,16 +143,36 @@ public class LinearArray {
 		return copy; // remove this line
 	}
 
+	public static int[] shiftLeft(int[] source, int start, int k) {
+		int[] copy = copyArray(source, source.length);
+
+		int from = start + k;
+		int to = start;
+
+		for (int i = 0; i < copy.length - k - start; i++) {
+			copy[to] = copy[from];
+			to++;
+			from++;
+		}
+
+		for(int j = 0; j < k; j++){
+			copy[copy.length - 1 - j] = 0;
+		}
+
+		return copy;
+	}
+
 	// Rotates all the elements of the source array to the left by 'k' positions
 	// Returns the updated array
 	public static int[] rotateLeft(int[] source, int k) {
 		// TO DO
-		int[] copy = copyArray(source, source.length);
-		for (int i = k, j = 0; i < copy.length + k; i++) {
-			copy[j++] = source[i % copy.length];
+		int[] leftShifted = shiftLeft(source, 0, k);
+
+		for(int i = 0; i < k; i++){
+			leftShifted[leftShifted.length - 1 - (k - 1) + i] = source[i];
 		}
 
-		return copy; // remove this line
+		return leftShifted;
 	}
 
 	// Shifts all the elements of the source array to the right by 'k' positions
@@ -169,16 +189,36 @@ public class LinearArray {
 		return copy; // remove this line
 	}
 
+	public static int[] shiftRight(int[] source, int start, int k) {
+		int[] copy = copyArray(source, source.length);
+
+		int from = copy.length - 1 - k;
+		int to = copy.length - 1;
+
+		for(int i = 0; i < copy.length - k - start; i++){
+			copy[to] = copy[from];
+			to--;
+			from--;
+		}
+
+		for(int j = start; j < start + k; j++){
+			copy[j] = 0;
+		}
+
+		return copy;
+	}
+
 	// Rotates all the elements of the source array to the right by 'k' positions
 	// Returns the updated array
 	public static int[] rotateRight(int[] source, int k) {
 		// TO DO
-		int[] copy = copyArray(source, source.length);
-		for (int i = copy.length - k, j = 0; i < copy.length + k; i++) {
-			copy[j++] = source[i % copy.length];
+		int[] rightShifted = shiftRight(source, 0, k);
+
+		for(int i = 0; i < k; i++){
+			rightShifted[i] = source[source.length - 1 - (k - 1) + i];
 		}
 
-		return copy; // remove this line
+		return rightShifted;
 	}
 
 	/**
@@ -195,26 +235,23 @@ public class LinearArray {
 	 */
 	public static boolean insert(int[] arr, int size, int elem, int index) {
 		// TO DO
-		if (index >= 0 && index < arr.length) {
-			if (size < arr.length) {
-				int[] copy = copyArray(arr, arr.length);
-				for (int i = index; i < arr.length - 1; i++) {
-					copy[i + 1] = arr[i];
-				}
-				copy[index] = elem;
+		if(index > 0 || index < arr.length)
+		{
+			if(size <= arr.length){
+				int[] rightShifted = shiftRight(arr, index, 1);
+				rightShifted[index] = elem;
 
-				printArray(copy);
-				System.out.println(size + 1);
-				
+				printArray(rightShifted);
+
 				return true;
-			} else {
-				System.out.println("No space Left");
+			}else {
+				System.out.println("No space left.");
 			}
-		} else {
-			System.out.println("No space Left");
+		}else {
+			System.out.println("Invalid Index.");
 		}
-		
-		return false; // remove this line
+
+		return false;
 	}
 
 	/**
@@ -229,41 +266,22 @@ public class LinearArray {
 	public static boolean removeAll(int[] arr, int size, int elem) {
 		// TO DO
 		int count = 0;
-		int[] copy = copyArray(arr, arr.length);
 
-		for (int i = 0; i < copy.length; i++) {
-			if (copy[i] == elem) {
-				copy[i] = 0;
+		for (int i = 0; i < size; i++) {
+			if (arr[i] == elem) {
+				arr = shiftLeft(arr, i, 1);
 				count++;
 			}
 		}
 
 		if (count > 0) {
-			trimArray(copy);
-			printArray(copy);
-			System.out.println(size - count);
-			
+			System.out.println("Count: " + count);
+
+			printArray(arr);
+
 			return true;
 		}
 
 		return false; // remove this line
 	}
-
-	public static void trimArray(int[] arr) {
-		for (int i = 0; i < arr.length; i++) {
-			if (arr[i] == 0) {
-				for (int j = i; j < arr.length - 1; j++) {
-					int index = 0;
-
-					do {
-						index++;
-					} while ((j + index) < arr.length - 1 && arr[j + index] == 0);
-
-					arr[j] = arr[j + index];
-					arr[j + index] = 0;
-				}
-			}
-		}
-	}
-
 }
