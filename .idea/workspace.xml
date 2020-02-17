@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="489d4dfc-a6a6-4ce5-be4a-a679efa738c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Homework02/Task01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab03/CircularArrayException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab03/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab03/TestCircularArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab04/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab04/LinkedListTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab04/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab05/CircularList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab05/CircularListTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab05/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CSE220_LAB/Lab01/LinearArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSE220_LAB/Lab01/LinearArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CSE220_LAB/Lab02/CircularArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSE220_LAB/Lab02/CircularArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CSE220_LAB/Lab02/CircularArrayTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSE220_LAB/Lab02/CircularArrayTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CSE220_LAB/META-INF/CSE220_LAB.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab02/CircularArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab02/CircularArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework02/Task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework02/Task01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +153,7 @@
       <workItem from="1581408295054" duration="118000" />
       <workItem from="1581408416610" duration="258000" />
       <workItem from="1581834005253" duration="20000" />
-      <workItem from="1581955318659" duration="1783000" />
+      <workItem from="1581955318659" duration="2166000" />
     </task>
     <task id="LOCAL-00001" summary="v2">
       <created>1580572356349</created>
@@ -184,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580622901938</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v3">
+      <created>1581957292775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581957292775</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +184,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2" />
+    <MESSAGE value="v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="v3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580021709973">
@@ -207,10 +200,11 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="744" y="423" width="488" height="258" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1853.1053@67.27.1853.1053" timestamp="1580202327224" />
-    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1580622900285">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="541" y="35" width="1053" height="917" key="CommitChangelistDialog2" timestamp="1581957291798">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580622900285" />
+    <state x="541" y="35" width="1053" height="917" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1581957291798" />
     <state width="1807" height="213" key="GridCell.Tab.0.bottom" timestamp="1581957159565">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -235,10 +229,11 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="476" y="130" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1581408087899" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1580622971848">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="503" y="214" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581957296198">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580622971848" />
+    <state x="503" y="214" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1581957296198" />
     <state x="386" y="32" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580571785841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
