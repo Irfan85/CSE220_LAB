@@ -157,7 +157,10 @@ public class CircularArray {
             int offset = (start + pos) % cir.length;
             cir[offset] = elem;
 
-            start = (start + cir.length - 1) % cir.length;
+            start--;
+            if(start == -1)
+                start = cir.length - 1;
+
             size++;
         }
     }
