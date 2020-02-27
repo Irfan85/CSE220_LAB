@@ -245,8 +245,6 @@ public class CircularArray {
     // This method will sort the values by keeping the start unchanged
     public void sort() {
         // TO DO
-
-
         for (int i = 0; i < size; i++) {
             int preOffset = start;
             int offset = start + 1;

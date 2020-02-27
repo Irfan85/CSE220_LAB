@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="489d4dfc-a6a6-4ce5-be4a-a679efa738c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Homework02/Task02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework02/Task03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework02/Task04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework02/Task06To16.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSE220_LAB/Lab02/CircularArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSE220_LAB/Lab02/CircularArray.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework02/Task01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework02/Task01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab02/CircularArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab02/CircularArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab04/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab04/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +46,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Homework02.Library" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Homework02" />
       <recent name="$PROJECT_DIR$/src/Lab05" />
@@ -40,33 +57,7 @@
       <recent name="E:\IdeaProjects\CSE220_LAB\src\Homework01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task01">
-    <configuration name="CircularArrayTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab02.CircularArrayTester" />
-      <module name="CSE220_LAB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab04.LinkedListTester" />
-      <module name="CSE220_LAB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Task06To16">
     <configuration name="Task01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework02.Task01" />
       <module name="CSE220_LAB" />
@@ -80,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab03.Test" />
+    <configuration name="Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework02.Task02" />
       <module name="CSE220_LAB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab03.*" />
+          <option name="PATTERN" value="Homework02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +84,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework01.TestStudent" />
+    <configuration name="Task03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework02.Task03" />
       <module name="CSE220_LAB" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework01.*" />
+          <option name="PATTERN" value="Homework02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework02.Task04" />
+      <module name="CSE220_LAB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task06To16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework02.Task06To16" />
+      <module name="CSE220_LAB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task06To16" />
+        <item itemvalue="Application.Task04" />
+        <item itemvalue="Application.Task03" />
+        <item itemvalue="Application.Task02" />
         <item itemvalue="Application.Task01" />
-        <item itemvalue="Application.CircularArrayTester" />
-        <item itemvalue="Application.LinkedListTester" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +170,13 @@
       <workItem from="1581408295054" duration="118000" />
       <workItem from="1581408416610" duration="258000" />
       <workItem from="1581834005253" duration="20000" />
-      <workItem from="1581955318659" duration="2166000" />
+      <workItem from="1581955318659" duration="2388000" />
+      <workItem from="1582078265052" duration="997000" />
+      <workItem from="1582445937668" duration="2820000" />
+      <workItem from="1582559541788" duration="139000" />
+      <workItem from="1582613286302" duration="8805000" />
+      <workItem from="1582647079776" duration="22157000" />
+      <workItem from="1582780309176" duration="3071000" />
     </task>
     <task id="LOCAL-00001" summary="v2">
       <created>1580572356349</created>
@@ -176,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581957292775</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="v3">
+      <created>1581957498980</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581957498980</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,44 +230,49 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="744" y="423" width="488" height="258" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1853.1053@67.27.1853.1053" timestamp="1580202327224" />
-    <state x="541" y="35" width="1053" height="917" key="CommitChangelistDialog2" timestamp="1581957291798">
+    <state x="541" y="35" width="1053" height="917" key="CommitChangelistDialog2" timestamp="1581957498873">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580622900285" />
-    <state x="541" y="35" width="1053" height="917" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1581957291798" />
-    <state width="1807" height="213" key="GridCell.Tab.0.bottom" timestamp="1581957159565">
+    <state x="541" y="35" width="1053" height="917" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1581957498873" />
+    <state width="1807" height="343" key="GridCell.Tab.0.bottom" timestamp="1582818807359">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1493" height="104" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580588986944" />
-    <state width="1807" height="213" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1581957159565" />
-    <state width="1807" height="213" key="GridCell.Tab.0.center" timestamp="1581957159564">
+    <state width="1807" height="343" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582818807359" />
+    <state width="1807" height="343" key="GridCell.Tab.0.center" timestamp="1582818807359">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1493" height="104" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580588986944" />
-    <state width="1807" height="213" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1581957159564" />
-    <state width="1807" height="213" key="GridCell.Tab.0.left" timestamp="1581957159564">
+    <state width="1807" height="343" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582818807359" />
+    <state width="1807" height="343" key="GridCell.Tab.0.left" timestamp="1582818807358">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1493" height="104" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580588986943" />
-    <state width="1807" height="213" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1581957159564" />
-    <state width="1807" height="213" key="GridCell.Tab.0.right" timestamp="1581957159564">
+    <state width="1807" height="343" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582818807358" />
+    <state width="1807" height="343" key="GridCell.Tab.0.right" timestamp="1582818807359">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1493" height="104" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580588986944" />
-    <state width="1807" height="213" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1581957159564" />
+    <state width="1807" height="343" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582818807359" />
     <state x="476" y="130" width="1024" height="845" key="SettingsEditor" timestamp="1581408087899">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="476" y="130" width="1024" height="845" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1581408087899" />
-    <state x="503" y="214" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581957296198">
+    <state x="503" y="214" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581957503118">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580622971848" />
-    <state x="503" y="214" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1581957296198" />
-    <state x="386" y="32" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580571785841">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="503" y="214" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1581957503118" />
+    <state x="533" y="68" width="840" height="645" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582620010392">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="386" y="32" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1580571785841" />
+    <state x="533" y="68" width="840" height="645" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1582620010391" />
+    <state x="675" y="587" width="524" height="493" key="extract.method.dialog" timestamp="1582614554146">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="675" y="587" width="524" height="493" key="extract.method.dialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582614554146" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1580246628177">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

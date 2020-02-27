@@ -215,17 +215,17 @@ public class LinkedList {
 	// Rotates the list to the right by 1 position.
 	public void rotateRight() {
 		// TO DO
+
 		for (Node n = this.head; n != null; n = n.next) {
 			if (n.next == null) {
-				Node newHead = new Node(n.element, this.head.next);
+				Node newHead = new Node(n.element, this.head);
 				n.element = this.head.element;
 				this.head = newHead;
 
+				remove(countNode() - 1);
 				break;
 			}
-
 		}
-
 	}
 
 }
